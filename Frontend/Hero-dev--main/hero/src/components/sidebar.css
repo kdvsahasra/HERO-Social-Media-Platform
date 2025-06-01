@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    height: 100vh; /* Ensures full height */
+    width: 240px;
+    background-color: rgb(240, 240, 240);
+    position:fixed; /* Keeps it fixed in place */
+    top: 0;
+    left: 0;
+    z-index: 8; /* Ensures sidebar stays above content */
+}
+
+.sidebarList{
+    padding: 0;
+    width: 100%;
+}
+
+.sidebarList .row{
+    width: 80%;
+    height: 60px;
+    list-style-type: none;
+    margin: 0;
+    display: fixed;
+    flex-direction: row;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.sidebarList .row:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.row #icon {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.row #title {
+    flex: 70%;
+}
+

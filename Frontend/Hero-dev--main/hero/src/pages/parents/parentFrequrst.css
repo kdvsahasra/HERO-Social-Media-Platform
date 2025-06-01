@@ -1,0 +1,42 @@
+.tab-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.tab-btn {
+    padding: 10px 24px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #9d72e4, #cfa7ff);
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(157, 114, 228, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tab-btn:hover {
+    background: linear-gradient(135deg, #b48df0, #d6baff);
+    transform: translateY(-2px);
+}
+
+.tab-btn.active {
+    background: #7d51c2;
+    color: #fff;
+    box-shadow: 0 6px 16px rgba(125, 81, 194, 0.4);
+}
+
+.btn-danger {
+    background-color: #f87171;
+    color: white;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 12px;
+    font-weight: 500;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn-danger:hover {
+    background-color: #ef4444;
+    transform: scale(1.05);
+}

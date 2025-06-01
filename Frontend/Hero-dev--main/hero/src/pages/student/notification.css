@@ -1,0 +1,52 @@
+.notification{
+    font-size: 20px;
+    font-weight: bold;
+    color: #7E0AA1;
+}
+
+.stories{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(244, 244, 244);
+    border:  blackrgb(206, 206, 206)
+}
+
+.stories-container {
+    display: flex;
+    gap: 10px; /* Adjust spacing between cards */
+    padding-top: 10px;
+    overflow-x: auto; /* Enables horizontal scrolling if needed */
+}
+.leftcontainer{
+    height: 100%;
+}
+/* .rightcontainer{
+    height: 100%;
+} */
+
+.post{
+    background-color: rgb(238, 238, 238);
+    height: 180px;
+    width: 100%;
+}
+
+#exampleFormControlTextarea1{
+    width: 95%;
+}
+
+.profilep{
+    width: 50px;
+}
+
+.pname{
+    font-weight: bold;
+}
+
+.filterName{
+    font-weight: bold;
+}
+
+.form-check-label{
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 14px;
+}

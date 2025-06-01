@@ -1,0 +1,120 @@
+.home {
+    font-size: 20px;
+    font-weight: bold;
+    color: #7E0AA1;
+}
+
+.stories {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(244, 244, 244);
+    border: 1px solid rgb(206, 206, 206);
+}
+
+.stories-container {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.stories-container .card {
+    flex: 0 0 auto;
+    width: 7rem;
+    height: 9rem;
+}
+
+.leftcontainer {
+    height: 100%;
+    padding: 1rem;
+}
+
+.rightcontainer {
+    height: 100%;
+    padding: 1rem;
+    background-color: #f8f9fa;
+}
+
+.post {
+    background-color: rgb(238, 238, 238);
+    min-height: 180px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#exampleFormControlTextarea1 {
+    width: 95%;
+}
+
+.profilep {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.pname {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.suggestionbar {
+    display: block;
+}
+
+/* Buttons for category */
+.category-btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+/* Upload photo button */
+.upload-btn {
+    font-size: 14px;
+    padding: 4px 8px;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    .rightcontainer {
+        display: none;
+    }
+
+    .post {
+        padding: 0.75rem;
+    }
+
+    .stories-container {
+        padding-bottom: 0.5rem;
+    }
+
+    .btn-sm {
+        font-size: 12px;
+    }
+
+    .home {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .category-btns {
+        flex-direction: column;
+    }
+
+    .stories-container .card {
+        width: 6rem;
+        height: 8rem;
+    }
+
+    .home {
+        font-size: 16px;
+    }
+
+    .pname {
+        font-size: 14px;
+    }
+}

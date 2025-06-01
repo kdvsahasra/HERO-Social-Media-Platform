@@ -1,0 +1,91 @@
+.profile-container {
+    text-align: center;
+    position: relative;
+  }
+  
+  .cover-photo-container {
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .custom-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  
+  .custom-img:hover {
+    opacity: 0.8;
+  }
+  
+  /* Hidden file input styling */
+  .cover-input {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  /* Modal styling */
+  .preview-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .preview-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .preview-img {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    border-radius: 10px;
+  }
+  
+  /* Close Button */
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+  }
+
+
+  
+  .custom-pimg{
+    /* height: 100px;
+    width: auto; */
+    position: relative;
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Ensure width and height are equal */
+    border-radius: 50%; /* Makes it a circle */
+    object-fit: cover; /* Ensures the image fills the circle */
+    border: 2px solid #ffffff; /* Optional: adds a border */ 
+  }
+  .pname{
+    font-size: 40px;
+  }
